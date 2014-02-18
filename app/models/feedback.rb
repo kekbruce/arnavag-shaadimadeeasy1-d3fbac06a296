@@ -31,7 +31,8 @@ class Feedback < ActiveRecord::Base
 
     end
 
-    # This is changed by Kekin. just for the upload info.
+    #Kekin changes.
+    # This is just to check the merging.
 
   end
 end
