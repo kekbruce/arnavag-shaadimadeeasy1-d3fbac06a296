@@ -1,0 +1,32 @@
+# Define constants for environment, store and location configuration
+constants:
+
+  s3:
+    user_image_folder:
+
+
+  facebook:
+    fb_app_namespace: glistr_graph_dev
+    facebook_url: http://facebook.com/shaadimadeeasy/
+  twitter:
+    twitter_url: http://www.twitter.com/shaadimadeeasy/
+    twitter_handle: ShaadiMadeEasy
+  pinterest:
+    pinterest_url: http://www.pinterest.com/shaadimadeeasy/
+  instagram:
+    instagram_url: http://instagram.com/shaadimadeeasy
+
+  memcache:
+      memcache_prefix: prod_
+      memcached_instances: ['shaadimadeeasy-production.webqsj.0001.use1.cache.amazonaws.com', 'shaadimadeeasy-production.webqsj.0002.use1.cache.amazonaws.com', 'shaadimadeeasy-production.webqsj.0003.use1.cache.amazonaws.com']
+
+  mandrill:
+    username: 'er.arnav.87@gmail.com'
+    key: 'mtFYiSZ4xFJbbLXD7pt20Q'
+
+  email:
+    customer_care: 'cc@shaadimadeeasy.com'
+    info: 'info@shaadimadeeasy.com'
+    feedback: 'feedback@shaadimadeeasy.com'
+    complaint: 'complaint@shaadimadeeasy.com'
+    contact: 'er.arnav.87@gmail.com, kekin.gada@gmail.com, er.manju.1314@gmail.com'
